@@ -1,0 +1,27 @@
+#statistic {
+    * {
+        margin: 0px;
+    }
+
+    display: grid;
+    justify-items: center;
+
+    p {
+        text-align: center;
+
+        font-size: 10px;
+        max-width: 50%;
+
+        color: var(--grayish-violet);
+    }
+
+    #statistics {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+
+        margin-top: 3rem;
+
+        gap: 1rem;
+    }
+}

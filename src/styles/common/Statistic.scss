@@ -1,0 +1,20 @@
+.statistic {
+    border-radius: 0.5rem;
+    
+    i {
+        background-color: var(--dark);
+        color: var(--cyan);
+
+        padding: 0.5rem;
+
+        border-radius: 100%;
+
+        position: relative;
+        left: 1rem;
+        bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}

@@ -1,3 +1,4 @@
+import '../../styles/common/Statistic.scss'
 import React from 'react'
 
 function Statistic({ icon, title, text }) {

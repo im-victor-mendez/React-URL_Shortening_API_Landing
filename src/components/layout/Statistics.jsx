@@ -1,22 +1,23 @@
+import '../../styles/layout/Statistics.scss'
 import React from 'react'
 import { v4 as key } from "uuid";
 import Statistic from '../common/Statistic'
 
 const statistics = [
     {
-        icon: '',
+        icon: 'Monitoring',
         title: 'Brand Recognition',
-        text: ''
+        text: "Boost your brand recognition with cach click. Generic links don't mean a thing. Branded links help instil confidence in your content."
     },
     {
-        icon: '',
+        icon: 'Speed',
         title: 'Detailed Records',
-        text: ''
+        text: "Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
     },
     {
-        icon: '',
+        icon: 'Brush',
         title: 'Fully Customizable',
-        text: ''
+        text: "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
     }
 ]
 
