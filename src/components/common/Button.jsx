@@ -1,3 +1,4 @@
+import '../../styles/common/Button.scss'
 import React from 'react'
 
 function Button({ id, text, action }) {
