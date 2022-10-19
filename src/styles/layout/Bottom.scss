@@ -1,0 +1,26 @@
+#bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    background-color: var(--dark);
+    color: white;
+
+    p {
+        &:hover {
+            color: var(--cyan);
+        }
+    }
+
+    #social-medias {
+        display: flex;
+        gap: 1rem;
+        i {
+            &:hover {
+                * {
+                    fill: var(--cyan);
+                }
+            }
+        }
+    }
+}
