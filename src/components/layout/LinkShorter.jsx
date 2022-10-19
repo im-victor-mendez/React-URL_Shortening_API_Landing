@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { apiShortening } from '../../utils/api'
+import { v4 as key } from "uuid";
 import Button from '../common/Button'
+import Link from '../common/Link'
 
 function LinkShorter() {
     const [link, setLink] = useState({original: '', shorter: ''})
@@ -26,10 +28,9 @@ function LinkShorter() {
             [...list, link]
         )
         
+        /* To fix */
         setLink({original: ''})
     }
-
-
 
     function shortURL(event) {
         apiShortening(link.original)
@@ -72,10 +73,7 @@ function LinkShorter() {
         <div id='links'>
             {
                 list.map(
-                    link => <div>
-                        {link.original}
-                        {link.shorter}
-                    </div>
+                    link => <Link key={key()} original={link.original} shorter={link.shorter} />
                 )
             }
         </div>
