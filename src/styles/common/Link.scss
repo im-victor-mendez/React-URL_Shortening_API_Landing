@@ -1,0 +1,35 @@
+.link {
+    * {
+        margin: 0px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 0.5rem;
+
+    gap: 20px;
+
+    p {
+        font-size: 10px;
+    }
+
+    #short {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: baseline;
+
+        gap: 10px;
+
+        p {
+            color: var(--cyan);
+        }
+
+        .button {
+            border-radius: 0.5rem;
+        }
+    }
+}

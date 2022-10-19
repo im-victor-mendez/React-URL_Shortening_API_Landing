@@ -1,3 +1,4 @@
+import '../../styles/common/Link.scss'
 import React from 'react'
 import Button from './Button'
 

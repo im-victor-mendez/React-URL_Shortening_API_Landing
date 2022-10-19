@@ -1,3 +1,4 @@
+import '../../styles/layout/LinkShorter.scss'
 import React, { useEffect, useState } from 'react'
 import { apiShortening } from '../../utils/api'
 import { v4 as key } from "uuid";
