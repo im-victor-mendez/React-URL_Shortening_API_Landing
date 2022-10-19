@@ -3,4 +3,21 @@
 
 .App {
     font-family: var(--font-family);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+#header,
+#top,
+#link-shorter,
+#statistic,
+#boost-link {
+    margin: 0rem 4rem;
+}
+
+#bottom {
+    padding: 0rem 4rem;
 }
