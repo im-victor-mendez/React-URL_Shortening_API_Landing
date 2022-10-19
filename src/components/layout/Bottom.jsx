@@ -74,6 +74,7 @@ function Bottom() {
     <h1>Shortly</h1>
 
     <div id='features'>
+        <h1>Features</h1>
         {
             features.map(
                 feature => <p key={key()}>{feature.text}</p>
@@ -82,6 +83,7 @@ function Bottom() {
     </div>
 
     <div id='resources'>
+        <h1>Resources</h1>
         {
             resources.map(
                 resource => <p key={key()}>{resource.text}</p>
@@ -90,6 +92,7 @@ function Bottom() {
     </div>
 
     <div id='company'>
+        <h1>Company</h1>
         {
             company.map(
                 link => <p key={key()}>{link.text}</p>
