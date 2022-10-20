@@ -1,4 +1,5 @@
 import './App.css';
+import './Mobile.scss'
 import BoostLinks from './components/layout/BoostLinks';
 import Bottom from './components/layout/Bottom';
 import Header from './components/layout/Header';

@@ -1,4 +1,5 @@
 import '../../styles/layout/Top.scss'
+import IllustrationWorking from '../../media/images/illustration-working.jsx'
 import React from 'react'
 import Button from '../common/Button'
 
@@ -10,7 +11,7 @@ function Top() {
         <Button id={'get-started'} text={'Get Started'} />
     </div>
 
-    <img src="" alt="" />
+    <IllustrationWorking />
   </section>
 }
 
